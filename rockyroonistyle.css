@@ -1,0 +1,81 @@
+nav ul li a
+{
+    float: left;
+    display: block;
+    text-decoration: none; /* gets rid of underline*/
+    padding: 15px 15px;
+
+}
+nav ul
+/** This style was necessary in order to horizontally display the lists **/
+{
+    /** remove the bullets and the margins **/
+    list-style-type: none;
+    margin 0;
+    padding 0;
+    overflow: hidden;
+    background-color: white;
+}
+nav ul li a.active 
+{
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav ul li a:hover:not(.active) 
+{
+    background-color: #555;
+    color: white;
+}
+body 
+{
+    text-align: center;
+    border-style: solid;
+    background: rgb(230, 248, 230);
+    border-color: rgb(196, 241, 202);
+    border-width: 3em;
+    padding: 2em;
+    
+   
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+
+
+h1 
+{
+    color: rgb(233, 138, 29);
+}
+
+p 
+{
+    text-align: left;
+}
+
+/* center my images and auto resize according to the display size*/
+img 
+{
+    width: 100%;
+    height: auto;
+}
+.homeimage 
+{
+    align-content: center;
+    border-style: round; 
+}
+#main-bio 
+{
+    width: 60%;
+}
+
+a {
+    color: rgb(0, 36, 156);
+}
+
+footer
+{
+    border-top: 2px solid gray;
+    padding-top: 2em;
+    text-align: right;
+
+}
